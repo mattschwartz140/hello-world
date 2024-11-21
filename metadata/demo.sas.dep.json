@@ -1,0 +1,17 @@
+{
+    "version": "v1",
+    "program": "/mnt/code/lowercase.sh",
+    "imports": [
+      {
+        "name": "DEMO",
+        "path": "/mnt/data/snapshots/SCAPE-DEMO/scape-demo/random.txt",
+        "difftype": "CONTENT"
+      }
+    ],
+    "exports": [
+      {
+        "name": "GENERATED_OUTPUT",
+        "path": "/mnt/data/ADaM/random_uppercase.txt"
+      }
+    ]
+  }
